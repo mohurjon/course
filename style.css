@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+body{
+    background: #171836;
+}
+.navbar-brand img{
+    width: 102px;
+margin: 20px 0 0 120px;
+}
+.nav-link{
+    font-family: 'Inter';
+font-weight: 500;
+font-size: 20px;
+color: #FFFFFF;
+margin: 0 20px;
+}
+.nav-link:hover{
+    color: chartreuse;
+}
+@media only screen and (max-width: 567px) {
+    .media{
+        grid-template-columns: 2fr;
+        margin-left: -150px;
+    }
+  .media .element{
+    text-align: center;
+margin-left: -160px;
+margin-bottom: -80px;
+  }
+  .grow input{
+    margin: -100px 0 0 -160px ;
+  }
+  .grow .ooo{
+    color: #fff;
+  }
+  .Ui .col{
+    margin-left: -300px;
+    display: flex;
+ margin: 10px;
+  }
+  .icons{
+    margin-left: 200px;
+  }
+   }
+.img img{
+  margin-top: 90px;
+    margin-left: 150px;
+    max-width: 850px;
+    min-height: 800px;
+}
+.grow{
+    margin-top: 140px;
+}
+.grow h2{
+    width: 484px;
+    height: 219px;   
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+}
+.grow h2:hover{
+    color: yellow;
+}
+.Ui{
+    margin-top: 150px;
+}
+.grow input{
+    background: #1F2143;
+  width: 506px;
+  height: 60px;
+  left: 814px;  
+  top: 538px;
+border-radius: 10px;
+border-color: #bfc0eb;
+margin-top: 80px;
+margin-bottom: -100px;
+}
+.grow h3{
+font-weight: 400;
+font-size: 24px;
+margin: 90px 0 0 10px;
+color: rgba(255, 255, 255, 0.4);
+}
+.Ui{
+    margin-top: 40px;
+    margin-left: -25px;
+}
+.Ui button{
+    margin:  25px;
+    background: #171836;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+.text-web{
+    margin-top: 120px;
+}
+.text-web h2{
+font-weight: 600;
+font-size: 36px;
+color: rgba(255, 255, 255, 0.8);
+}
+.text-web p{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.247) !important;
+    }
+.owl-theme{
+   margin-top: 80px; 
+}
+.owl-theme img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+
+.container p, h3{
+    color: white;
+}
+.icons{
+    margin-top: 150px;
+}
+
+.icons .text .fa{
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 20px;
+    }
+    .container .text h3:hover{
+        color: chartreuse;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .container .text p:hover{
+        color: chartreuse;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+.card{
+margin-top: 85px;
+background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.2) 100%);
+border-radius: 20px;
+}
+.card-body .card-tex{
+font-weight: 500;
+font-size: 16px;
+color: #3BF5BD;
+}
+.card-body .card-title{
+font-weight: 600;
+font-size: 20px;
+color: rgba(255, 255, 255, 0.8);
+}
+.card-body .card-text{
+font-weight: 400;
+font-size: 16px;
+color: rgba(255, 255, 255, 0.4);
+}
+.card-body .btn {
+    display: block;
+    margin: auto;
+}
+.one .button{
+    background: none;
+display: block;
+    margin: auto;
+    width: 220px;
+    height: 45px;
+    font-weight: 700;
+font-size: 16px;
+color: #F5443B;
+padding-top: 10px;
+margin-top: 120px;
+}
+
+
+/*webinar */
+.card{
+    background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100% ) ;
+}
+
+.free .fa{
+color: yellow;
+margin: 20px 10px 10px 30px;
+}
+.free h2{
+    color: #fff;
+    font-weight: 600;
+font-size: 18px;
+margin: 20px 0 0 30px;
+}
+.free p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 11px;
+    margin: 10px 0 0 30px;
+}
+.free span{
+    font-weight: 700;
+font-size: 20px;
+color: #F5453D;
+}
+.you{
+    margin-top: 190px;
+}
+.you h2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+.you p{
+    font-weight: 400;
+font-size: 18px;
+color: rgba(255, 255, 255, 0.4);
+}
+
+
+.card-body .btn{
+    display: block;
+    margin: auto;
+    background: none;
+    border-color: #F5453D;
+    color: #F5453D;
+    margin-top: 130px;
+}
+.card-body .ikki{
+    margin-top: 90px;
+}
+.card-body .uch{
+    margin-top: 10px;
+}
+.card-body .card-text{
+    color: #fff !important;
+}
+.card-body .card-text:hover{
+    color: rgb(88, 223, 16) !important;
+}
+
+.imges img{
+    margin-top: 175px;
+}
+
+.footer{
+    margin: 130px 0 10px 0;
+}
+
+.text-reset{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+.text-reset:hover{
+color: #26da02 !important;
+cursor: pointer;
+}
+.text-uppercase{
+font-weight: 400;
+font-size: 18px;
+color: rgba(255, 255, 255, 0.8);
+}
+.foot{
+    color: rgba(255, 255, 255, 0.4) !important;  
+}
+.sss{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4) !important;
+  
+}
+
+
+
